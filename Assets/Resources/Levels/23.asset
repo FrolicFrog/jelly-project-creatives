@@ -1,0 +1,362 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e14e6f22f761284cb43034e190fb4ab, type: 3}
+  m_Name: 23
+  m_EditorClassIdentifier: 
+  CameraConfig:
+    Position: {x: 1.9, y: -8.4, z: -34}
+    Rotation: {x: 35.2, y: 0.25699845, z: 359.976}
+    OrthographicSize: 70.5
+  CupArrangement:
+    Width: 9
+    Height: 7
+    Grid:
+    - CupStacks:
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+    - CupStacks:
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups:
+        - Color: 7
+          IsMysterious: 0
+        - Color: 7
+          IsMysterious: 0
+        - Color: 7
+          IsMysterious: 0
+        LockedStackUntil: 5
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+    - CupStacks:
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups:
+        - Color: 5
+          IsMysterious: 0
+        - Color: 2
+          IsMysterious: 1
+        - Color: 0
+          IsMysterious: 1
+        - Color: 2
+          IsMysterious: 0
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+    - CupStacks:
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups:
+        - Color: 5
+          IsMysterious: 0
+        - Color: 2
+          IsMysterious: 1
+        - Color: 0
+          IsMysterious: 1
+        - Color: 2
+          IsMysterious: 0
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups:
+        - Color: 2
+          IsMysterious: 0
+        - Color: 7
+          IsMysterious: 1
+        - Color: 8
+          IsMysterious: 1
+        - Color: 0
+          IsMysterious: 0
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+    - CupStacks:
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups:
+        - Color: 0
+          IsMysterious: 0
+        - Color: 8
+          IsMysterious: 1
+        - Color: 5
+          IsMysterious: 1
+        - Color: 7
+          IsMysterious: 0
+        LockedStackUntil: -1
+      - Cups:
+        - Color: 0
+          IsMysterious: 0
+        - Color: 8
+          IsMysterious: 1
+        - Color: 5
+          IsMysterious: 1
+        - Color: 7
+          IsMysterious: 0
+        LockedStackUntil: -1
+      - Cups:
+        - Color: 0
+          IsMysterious: 0
+        - Color: 8
+          IsMysterious: 1
+        - Color: 5
+          IsMysterious: 1
+        - Color: 7
+          IsMysterious: 0
+        LockedStackUntil: -1
+      - Cups:
+        - Color: 2
+          IsMysterious: 0
+        - Color: 7
+          IsMysterious: 1
+        - Color: 8
+          IsMysterious: 1
+        - Color: 0
+          IsMysterious: 0
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+    - CupStacks:
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups:
+        - Color: 0
+          IsMysterious: 0
+        - Color: 8
+          IsMysterious: 1
+        - Color: 5
+          IsMysterious: 1
+        - Color: 7
+          IsMysterious: 0
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups:
+        - Color: 0
+          IsMysterious: 0
+        - Color: 8
+          IsMysterious: 1
+        - Color: 5
+          IsMysterious: 1
+        - Color: 7
+          IsMysterious: 0
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+    - CupStacks:
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups:
+        - Color: 0
+          IsMysterious: 0
+        - Color: 8
+          IsMysterious: 1
+        - Color: 5
+          IsMysterious: 1
+        - Color: 7
+          IsMysterious: 0
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups:
+        - Color: 8
+          IsMysterious: 0
+        - Color: 7
+          IsMysterious: 1
+        - Color: 8
+          IsMysterious: 1
+        - Color: 0
+          IsMysterious: 0
+        LockedStackUntil: -1
+      - Cups:
+        - Color: 8
+          IsMysterious: 0
+        - Color: 7
+          IsMysterious: 1
+        - Color: 8
+          IsMysterious: 1
+        - Color: 0
+          IsMysterious: 0
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+    - CupStacks:
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups:
+        - Color: 7
+          IsMysterious: 0
+        - Color: 2
+          IsMysterious: 1
+        - Color: 0
+          IsMysterious: 1
+        - Color: 2
+          IsMysterious: 0
+        LockedStackUntil: -1
+      - Cups:
+        - Color: 7
+          IsMysterious: 0
+        - Color: 2
+          IsMysterious: 1
+        - Color: 0
+          IsMysterious: 1
+        - Color: 2
+          IsMysterious: 0
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+    - CupStacks:
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+  Theme: 3
+  BeltIndex: 11
+  LayoutIndex: 0
+  TutorialMessage: 
+  IsHardLevel: 0
+  TrayDispensers:
+  - Orientation: 1
+    Active: 1
+    Position: {x: -23.8, y: 87.98}
+    TraysToSpawn:
+    - Type: 3
+      Material: 0
+      IsMysterious: 0
+    - Type: 3
+      Material: 8
+      IsMysterious: 1
+    - Type: 3
+      Material: 2
+      IsMysterious: 1
+    - Type: 2
+      Material: 5
+      IsMysterious: 0
+    - Type: 2
+      Material: 7
+      IsMysterious: 0
+    - Type: 0
+      Material: 8
+      IsMysterious: 0
+  - Orientation: 0
+    Active: 1
+    Position: {x: 21.7, y: 87.8}
+    TraysToSpawn:
+    - Type: 4
+      Material: 7
+      IsMysterious: 0
+    - Type: 3
+      Material: 5
+      IsMysterious: 1
+    - Type: 2
+      Material: 0
+      IsMysterious: 1
+    - Type: 2
+      Material: 8
+      IsMysterious: 1
+    - Type: 1
+      Material: 2
+      IsMysterious: 0
+    - Type: 0
+      Material: 7
+      IsMysterious: 0
+    - Type: 2
+      Material: 7
+      IsMysterious: 0
+  - Orientation: 3
+    Active: 1
+    Position: {x: 23.38, y: 60.2}
+    TraysToSpawn:
+    - Type: 3
+      Material: 2
+      IsMysterious: 0
+    - Type: 3
+      Material: 8
+      IsMysterious: 1
+    - Type: 2
+      Material: 0
+      IsMysterious: 0
+    - Type: 2
+      Material: 7
+      IsMysterious: 1
+    - Type: 3
+      Material: 0
+      IsMysterious: 0
+    - Type: 0
+      Material: 5
+      IsMysterious: 0
+  - Orientation: 3
+    Active: 0
+    Position: {x: -6.8999996, y: 131.5}
+    TraysToSpawn: []
+  - Orientation: 3
+    Active: 0
+    Position: {x: 9.1, y: 131.5}
+    TraysToSpawn: []
+  - Orientation: 3
+    Active: 0
+    Position: {x: 25.2, y: 131.5}
+    TraysToSpawn: []

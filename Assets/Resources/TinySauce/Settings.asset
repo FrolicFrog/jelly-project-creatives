@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: faa11ec82e9746928e211e7f096812ca, type: 3}
+  m_Name: Settings
+  m_EditorClassIdentifier: 
+  gameAnalyticsIosGameKey: 
+  gameAnalyticsIosSecretKey: 
+  gameAnalyticsAndroidGameKey: d7a053580df487dac61b5b96c3d19904
+  gameAnalyticsAndroidSecretKey: b2b4b19f43da90c92744646f80f6e6e4371fe776
+  facebookAppId: 1063288492057512
+  facebookClientToken: 816307f2c9b3250478cbad08c8e6168c
+  adjustIOSToken: 
+  adjustAndroidToken: yh23u55m1e68
+  EditorIdfa: 847eb3c3-0dc6-4a24-b93c-673449df171b
+  UseRemoteConfig: 0
+  UseVoodooAnalytics: 1
+  companyName: Frolic Frog
+  privacyPolicyURL: https://frolicfrogstudio.com/privacy.html
+  developerContactEmail: dev2f.feedback@gmail.com

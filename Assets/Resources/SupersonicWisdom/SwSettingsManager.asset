@@ -1,0 +1,58 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9fb4251555c84bc791df5483e90588bb, type: 3}
+  m_Name: SwSettingsManager
+  m_EditorClassIdentifier: 
+  stage10Settings: {fileID: 0}
+  stage20Settings: {fileID: 4901755474574741646}
+--- !u!114 &4901755474574741646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a82662ae49014137a28fff0fa445cc8c, type: 3}
+  m_Name: SwStage20Settings
+  m_EditorClassIdentifier: 
+  wasLoggedIn: 1
+  token: cee3a9de3db16573f0e53125bd33c8df2317ac70e84b5e399a865e307b416614
+  facebookAppId: 1063288492057512
+  facebookAppClientToken: 816307f2c9b3250478cbad08c8e6168c
+  isTimeBased: 0
+  enableResourceManagement: 0
+  unityProjectId: 
+  appName: Boba Rush
+  selectedGameIndex: 1
+  isTitleSelectedAutomatically: 1
+  areTextMeshProEssentialsInstalled: 1
+  inGameConsoleEnabled: 0
+  inGameConsoleLogLevel: 
+  iosAppId: 
+  iosGameId: 
+  iosGameAnalyticsGameKey: 
+  iosGameAnalyticsSecretKey: 
+  androidGameId: d7a99e20-6631-4791-bec2-d5c790d687b5
+  androidGameAnalyticsGameKey: 
+  androidGameAnalyticsSecretKey: 
+  enableWisdomDebug: 0
+  testBlockingApiInvocation: 0
+  enableDevtools: 0
+  logViaNetwork: 0
+  enableUnityAnalyticsIntegration: 0
+  enableUnityRemoteConfigIntegration: 0
+  ironSourceAndroidAppKey: 
+  ironSourceIosAppKey: 
+  debugIronSource: 0
+  enableTestAds: 0
