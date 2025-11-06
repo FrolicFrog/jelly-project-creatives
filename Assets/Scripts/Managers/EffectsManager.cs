@@ -119,93 +119,93 @@ public class EffectsManager : MonoBehaviour
 
     public void ApplyTheme(GraphicsTheme Theme)
     {
-        MeshRenderer Belt = Manager.Instance.ReferenceManagement.Conveyor.BeltMeshRenderer;
-        BeltMaterialTargets = new MeshRenderer[1] { Belt };
+        // MeshRenderer Belt = Manager.Instance.ReferenceManagement.Conveyor.BeltMeshRenderer;
+        // BeltMaterialTargets = new MeshRenderer[1] { Belt };
 
-        MeshRenderer BeltWall = Manager.Instance.ReferenceManagement.Conveyor.BeltWallMeshRenderer;
-        BeltWallMaterialTargets = new MeshRenderer[1] { BeltWall };
+        // MeshRenderer BeltWall = Manager.Instance.ReferenceManagement.Conveyor.BeltWallMeshRenderer;
+        // BeltWallMaterialTargets = new MeshRenderer[1] { BeltWall };
 
-        TrayDispenser[] Dispensers = Manager.Instance.ReferenceManagement.Conveyor.transform.parent.parent.parent.GetComponentsInChildren<TrayDispenser>(true);
-        TrayDispenserMaterialTargets = new MeshRenderer[Dispensers.Length];
+        // TrayDispenser[] Dispensers = Manager.Instance.ReferenceManagement.Conveyor.transform.parent.parent.parent.GetComponentsInChildren<TrayDispenser>(true);
+        // TrayDispenserMaterialTargets = new MeshRenderer[Dispensers.Length];
 
-        MeshRenderer Path = Manager.Instance.ReferenceManagement.Conveyor.Path.GetComponent<MeshRenderer>();
-        Path.material.SetColor("_Color", Theme.ArrowColor.Color);
+        // MeshRenderer Path = Manager.Instance.ReferenceManagement.Conveyor.Path.GetComponent<MeshRenderer>();
+        // Path.material.SetColor("_Color", Theme.ArrowColor.Color);
 
-        Transform TargetShadow = Manager.Instance.ReferenceManagement.Conveyor.transform.parent.parent.GetChild(1);
-        MeshRenderer Shadow = TargetShadow.GetComponent<MeshRenderer>();
-        Shadow.material = Theme.ShadowMaterial;
+        // Transform TargetShadow = Manager.Instance.ReferenceManagement.Conveyor.transform.parent.parent.GetChild(1);
+        // MeshRenderer Shadow = TargetShadow.GetComponent<MeshRenderer>();
+        // Shadow.material = Theme.ShadowMaterial;
 
-        for (int i = 0; i < Dispensers.Length; i++)
-            TrayDispenserMaterialTargets[i] = Dispensers[i].GetComponent<MeshRenderer>();
+        // for (int i = 0; i < Dispensers.Length; i++)
+        //     TrayDispenserMaterialTargets[i] = Dispensers[i].GetComponent<MeshRenderer>();
 
-        foreach (MeshRenderer target in BaseMaterialTargets)
-        {
-            if (target != null && Theme.BaseMaterial != null)
-                target.material = Theme.BaseMaterial;
-        }
+        // foreach (MeshRenderer target in BaseMaterialTargets)
+        // {
+        //     if (target != null && Theme.BaseMaterial != null)
+        //         target.material = Theme.BaseMaterial;
+        // }
 
-        foreach (MeshRenderer target in BeltMaterialTargets)
-        {
-            if (target != null && Theme.BeltMaterial != null)
-                target.material = Theme.BeltMaterial;
-        }
+        // foreach (MeshRenderer target in BeltMaterialTargets)
+        // {
+        //     if (target != null && Theme.BeltMaterial != null)
+        //         target.material = Theme.BeltMaterial;
+        // }
 
-        foreach (MeshRenderer target in BeltWallMaterialTargets)
-        {
-            if (target != null && Theme.BeltWallMaterial != null)
-                target.material = Theme.BeltWallMaterial;
-        }
+        // foreach (MeshRenderer target in BeltWallMaterialTargets)
+        // {
+        //     if (target != null && Theme.BeltWallMaterial != null)
+        //         target.material = Theme.BeltWallMaterial;
+        // }
 
-        foreach (MeshRenderer target in DividerMaterialTargets)
-        {
-            if (target != null && Theme.DividerMaterial != null)
-                target.material = Theme.DividerMaterial;
-        }
+        // foreach (MeshRenderer target in DividerMaterialTargets)
+        // {
+        //     if (target != null && Theme.DividerMaterial != null)
+        //         target.material = Theme.DividerMaterial;
+        // }
 
-        foreach (MeshRenderer target in TrayDispenserMaterialTargets)
-        {
-            if (target == null) continue;
+        // foreach (MeshRenderer target in TrayDispenserMaterialTargets)
+        // {
+        //     if (target == null) continue;
 
-            if (Theme.TrayDispenserMaterial != null)
-            {
-                target.material = Theme.TrayDispenserMaterial;
-            }
+        //     if (Theme.TrayDispenserMaterial != null)
+        //     {
+        //         target.material = Theme.TrayDispenserMaterial;
+        //     }
 
-            if (Theme.TrayDispenserBaseColor != null)
-            {
-                Color BaseColor = Theme.TrayDispenserBaseColor.Color;
-                target.transform.GetChild(0).GetComponent<SpriteRenderer>().color = BaseColor;
-            }
-        }
+        //     if (Theme.TrayDispenserBaseColor != null)
+        //     {
+        //         Color BaseColor = Theme.TrayDispenserBaseColor.Color;
+        //         target.transform.GetChild(0).GetComponent<SpriteRenderer>().color = BaseColor;
+        //     }
+        // }
 
-        foreach (MeshRenderer target in TableMaterialTargets)
-        {
-            if (target != null && Theme.TableMaterial != null)
-                target.material = Theme.TableMaterial;
-        }
+        // foreach (MeshRenderer target in TableMaterialTargets)
+        // {
+        //     if (target != null && Theme.TableMaterial != null)
+        //         target.material = Theme.TableMaterial;
+        // }
 
-        foreach (MeshRenderer target in TableBaseMaterialTargets)
-        {
-            if (target != null && Theme.TableBaseMaterial != null)
-                target.material = Theme.TableBaseMaterial;
-        }
+        // foreach (MeshRenderer target in TableBaseMaterialTargets)
+        // {
+        //     if (target != null && Theme.TableBaseMaterial != null)
+        //         target.material = Theme.TableBaseMaterial;
+        // }
 
-        foreach (UIVariant variant in UIVariants)
-        {
-            if (variant.TargetTheme != Theme.Theme) continue;
+        // foreach (UIVariant variant in UIVariants)
+        // {
+        //     if (variant.TargetTheme != Theme.Theme) continue;
 
-            if (variant.DelayDuration <= 0f)
-                variant.image.sprite = variant.sprite;
-            else
-                StartCoroutine(DelayedUIChange(variant));
-        }
+        //     if (variant.DelayDuration <= 0f)
+        //         variant.image.sprite = variant.sprite;
+        //     else
+        //         StartCoroutine(DelayedUIChange(variant));
+        // }
 
-        foreach(SpriteVariant spriteVariant in SpriteVariants)
-        {
-            if (spriteVariant.TargetTheme != Theme.Theme) continue;
+        // foreach(SpriteVariant spriteVariant in SpriteVariants)
+        // {
+        //     if (spriteVariant.TargetTheme != Theme.Theme) continue;
 
-            spriteVariant.spriteRenderer.sprite = spriteVariant.sprite;
-        }
+        //     spriteVariant.spriteRenderer.sprite = spriteVariant.sprite;
+        // }
     }
 
     public void AnimateExposureByPostProcess(float Value, float Duration)

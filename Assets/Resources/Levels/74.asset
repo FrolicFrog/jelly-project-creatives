@@ -55,7 +55,7 @@ MonoBehaviour:
         - Color: 0
           IsMysterious: 0
         LockedStackUntil: -1
-  Theme: 0
+  Theme: 3
   BeltIndex: 12
   LayoutIndex: 0
   TutorialMessage: 
