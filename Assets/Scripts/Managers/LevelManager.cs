@@ -190,6 +190,11 @@ public class LevelManager : MonoBehaviour
                     CupClone.GetComponent<Cup>().SetData(cupColor, StackIdentifier, CanTakeInput, IsMysterious);
 
                     cupStacks.Identifiers.Push(StackIdentifier);
+                    if(cupStacks.Cups.TryPeek(out Transform PreviousTopCupTransform))
+                    {
+                        Cup cup = PreviousTopCupTransform.gameObject.GetComponent<Cup>();
+                        if (cup.Eyes != null) cup.Eyes.gameObject.SetActive(false);
+                    }
                     cupStacks.Cups.Push(CupClone.transform);
                     cupStacks.Colors.Push(cupColor);
                 }

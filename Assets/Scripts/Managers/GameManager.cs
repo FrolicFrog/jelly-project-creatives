@@ -14,7 +14,8 @@ public class GameManager : MonoBehaviour
 {
     [Header("SETTINGS")]
     [Space(10)]
-
+    [Range(0f,50f)]
+    public float DelayInReadyForCollection;
     [Header("Cup Spawning")]
     [Range(0.1f, 10f)] public float YTargetOffset = 4.5f;
     public float CompensationSpeedMultiplier = 1.2f;
@@ -382,7 +383,7 @@ public class GameManager : MonoBehaviour
 
         if (Cup.TryGetComponent(out Cup cup))
         {
-            DOVirtual.DelayedCall(1f, () => cup.ReadyForCollection = true, true);
+            DOVirtual.DelayedCall(DelayInReadyForCollection, () => cup.ReadyForCollection = true, true);
         }
 
         Manager.Instance.CheckGameState();

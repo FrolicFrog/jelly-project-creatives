@@ -162,7 +162,11 @@ public class AnimationManager
         .OnStart(() =>
         {
             if(Cup.TryGetComponent(out Cup CupCmp))
+            {
+                CupCmp.Eyes.gameObject.SetActive(true);
                 CupCmp.Eyes.DOScale(100,0.1f).SetEase(Ease.OutBack);
+            }
+                
         })
         .OnComplete(() =>
         {

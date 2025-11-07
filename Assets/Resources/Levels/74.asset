@@ -33,6 +33,14 @@ MonoBehaviour:
       - Cups:
         - Color: 0
           IsMysterious: 0
+        - Color: 0
+          IsMysterious: 0
+        - Color: 0
+          IsMysterious: 0
+        - Color: 0
+          IsMysterious: 0
+        - Color: 0
+          IsMysterious: 0
         LockedStackUntil: -1
       - Cups:
         - Color: 0
