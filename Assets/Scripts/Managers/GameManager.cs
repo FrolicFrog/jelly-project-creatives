@@ -300,11 +300,13 @@ public class GameManager : MonoBehaviour
                 Manager.Instance.UIManagement.UpdateProgressBar(LevelProgressPercent);
 
 
+
                 if (CurrentIdentifier != StackIdentifier)
                 {
                     if (stack.Cups.Count > 0)
                     {
                         Transform Cup = stack.Cups.Peek();
+                        Cup.GetComponent<Cup>().Eyes.gameObject.SetActive(true);
                         Cup.GetComponent<Cup>().TakeInput = true;
                     }
 
@@ -315,8 +317,14 @@ public class GameManager : MonoBehaviour
 
                     AnimationManager.CupStackAnimation(seq, topCup, pathPoints, TimeToGetStacked, SquishTweak, ++CupIndex, in StackedCups);
                 }
+                else if (stack.Cups.Count > 0)
+                {
+                    Transform Cup = stack.Cups.Peek();
+                    Cup.GetComponent<Cup>().Eyes.gameObject.SetActive(true);
+                }
 
-                CurrentCups.Add(topCup);
+
+                    CurrentCups.Add(topCup);
                 StackedCups.Add(topCup);
             }
         }
