@@ -106,6 +106,13 @@ public class AnimationManager
         float OriginalEyeX = TopCup.Eyes.localScale.x;
 
         Sequence localSeq = DOTween.Sequence();
+        localSeq.OnStart(() =>
+        {
+            if (topCup.TryGetComponent(out Cup cup))
+            {
+                cup.Eyes.gameObject.SetActive(true);
+            }
+        });
 
         // Move along path
         localSeq.Append(topCup.DOPath(pathPoints.ToArray(), TimeToGetStacked, PathType.CatmullRom).SetEase(Ease.InOutSine));
