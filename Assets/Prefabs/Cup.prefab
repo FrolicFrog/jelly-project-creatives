@@ -3456,7 +3456,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   Generator: {fileID: 0}
-  Speed: 400
+  Speed: 300
   DistanceThreshold: 3
   TurningSpeed: 20
   IsLoop: 1

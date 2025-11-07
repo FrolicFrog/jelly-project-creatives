@@ -17,8 +17,8 @@ MonoBehaviour:
     Rotation: {x: 13.5, y: 0.25699845, z: 359.976}
     OrthographicSize: 50.36
   CupArrangement:
-    Width: 3
-    Height: 3
+    Width: 5
+    Height: 5
     Grid:
     - CupStacks:
       - Cups: []
@@ -27,18 +27,26 @@ MonoBehaviour:
         - Color: 0
           IsMysterious: 0
         LockedStackUntil: -1
+      - Cups:
+        - Color: 0
+          IsMysterious: 0
+        LockedStackUntil: -1
+      - Cups:
+        - Color: 0
+          IsMysterious: 0
+        LockedStackUntil: -1
       - Cups: []
         LockedStackUntil: -1
     - CupStacks:
       - Cups:
         - Color: 0
           IsMysterious: 0
+        LockedStackUntil: -1
+      - Cups:
         - Color: 0
           IsMysterious: 0
-        - Color: 0
-          IsMysterious: 0
-        - Color: 0
-          IsMysterious: 0
+        LockedStackUntil: -1
+      - Cups:
         - Color: 0
           IsMysterious: 0
         LockedStackUntil: -1
@@ -62,6 +70,48 @@ MonoBehaviour:
       - Cups:
         - Color: 0
           IsMysterious: 0
+        LockedStackUntil: -1
+      - Cups:
+        - Color: 0
+          IsMysterious: 0
+        LockedStackUntil: -1
+      - Cups:
+        - Color: 0
+          IsMysterious: 0
+        LockedStackUntil: -1
+    - CupStacks:
+      - Cups:
+        - Color: 0
+          IsMysterious: 0
+        LockedStackUntil: -1
+      - Cups:
+        - Color: 0
+          IsMysterious: 0
+        LockedStackUntil: -1
+      - Cups:
+        - Color: 0
+          IsMysterious: 0
+        LockedStackUntil: -1
+      - Cups:
+        - Color: 0
+          IsMysterious: 0
+        LockedStackUntil: -1
+      - Cups:
+        - Color: 0
+          IsMysterious: 0
+        LockedStackUntil: -1
+    - CupStacks:
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups:
+        - Color: 0
+          IsMysterious: 0
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
         LockedStackUntil: -1
   Theme: 3
   BeltIndex: 12
@@ -73,7 +123,7 @@ MonoBehaviour:
     Active: 1
     Position: {x: -33.1, y: 52.5}
     TraysToSpawn:
-    - Type: 3
+    - Type: 2
       Material: 0
       IsMysterious: 0
   - Orientation: 3

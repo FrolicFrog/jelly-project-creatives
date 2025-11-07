@@ -12,6 +12,7 @@ public class LevelManager : MonoBehaviour
     [Header("REFERENCES")]
     public Transform CupParent;
     public Transform Table;
+    public Vector3 Offset;
 
     [Header("SETTINGS")]
 
@@ -206,7 +207,7 @@ public class LevelManager : MonoBehaviour
 
         SetParentCenterTo(CupParent.gameObject, Table.gameObject);
         CupParent.transform.position = new Vector3(CupParent.transform.position.x, YPosOffset, CupParent.transform.position.z);
-
+        CupParent.transform.position += Offset;
         RotateFromCenter(180f, CupParent);
     }
 
