@@ -77,11 +77,23 @@ MonoBehaviour:
           IsMysterious: 0
         - Color: 7
           IsMysterious: 0
+        - Color: 5
+          IsMysterious: 0
+        - Color: 6
+          IsMysterious: 0
+        - Color: 4
+          IsMysterious: 0
         LockedStackUntil: -1
       - Cups:
         - Color: 3
           IsMysterious: 0
         - Color: 7
+          IsMysterious: 0
+        - Color: 5
+          IsMysterious: 0
+        - Color: 6
+          IsMysterious: 0
+        - Color: 4
           IsMysterious: 0
         LockedStackUntil: -1
       - Cups: []
@@ -104,6 +116,10 @@ MonoBehaviour:
           IsMysterious: 0
         - Color: 2
           IsMysterious: 0
+        - Color: 3
+          IsMysterious: 0
+        - Color: 5
+          IsMysterious: 0
         LockedStackUntil: -1
       - Cups:
         - Color: 0
@@ -112,17 +128,33 @@ MonoBehaviour:
           IsMysterious: 0
         - Color: 2
           IsMysterious: 0
+        - Color: 3
+          IsMysterious: 0
+        - Color: 5
+          IsMysterious: 0
         LockedStackUntil: -1
       - Cups:
         - Color: 3
           IsMysterious: 0
         - Color: 7
           IsMysterious: 0
+        - Color: 5
+          IsMysterious: 0
+        - Color: 6
+          IsMysterious: 0
+        - Color: 4
+          IsMysterious: 0
         LockedStackUntil: -1
       - Cups:
         - Color: 3
           IsMysterious: 0
         - Color: 7
+          IsMysterious: 0
+        - Color: 4
+          IsMysterious: 0
+        - Color: 6
+          IsMysterious: 0
+        - Color: 4
           IsMysterious: 0
         LockedStackUntil: -1
       - Cups: []
@@ -153,13 +185,7 @@ MonoBehaviour:
           IsMysterious: 0
         - Color: 6
           IsMysterious: 0
-        LockedStackUntil: -1
-      - Cups:
-        - Color: 0
-          IsMysterious: 0
-        - Color: 8
-          IsMysterious: 0
-        - Color: 2
+        - Color: 7
           IsMysterious: 0
         LockedStackUntil: -1
       - Cups:
@@ -168,12 +194,38 @@ MonoBehaviour:
         - Color: 8
           IsMysterious: 0
         - Color: 2
+          IsMysterious: 0
+        - Color: 8
+          IsMysterious: 0
+        - Color: 3
+          IsMysterious: 0
+        - Color: 5
+          IsMysterious: 0
+        LockedStackUntil: -1
+      - Cups:
+        - Color: 0
+          IsMysterious: 0
+        - Color: 8
+          IsMysterious: 0
+        - Color: 2
+          IsMysterious: 0
+        - Color: 8
+          IsMysterious: 0
+        - Color: 3
+          IsMysterious: 0
+        - Color: 5
           IsMysterious: 0
         LockedStackUntil: -1
       - Cups:
         - Color: 3
           IsMysterious: 0
         - Color: 7
+          IsMysterious: 0
+        - Color: 4
+          IsMysterious: 0
+        - Color: 6
+          IsMysterious: 0
+        - Color: 4
           IsMysterious: 0
         LockedStackUntil: -1
       - Cups: []
@@ -194,6 +246,8 @@ MonoBehaviour:
           IsMysterious: 0
         - Color: 8
           IsMysterious: 0
+        - Color: 0
+          IsMysterious: 0
         LockedStackUntil: -1
       - Cups:
         - Color: 8
@@ -205,6 +259,117 @@ MonoBehaviour:
         - Color: 4
           IsMysterious: 0
         - Color: 8
+          IsMysterious: 0
+        - Color: 0
+          IsMysterious: 0
+        LockedStackUntil: -1
+      - Cups:
+        - Color: 7
+          IsMysterious: 0
+        - Color: 1
+          IsMysterious: 0
+        - Color: 0
+          IsMysterious: 0
+        - Color: 6
+          IsMysterious: 0
+        - Color: 7
+          IsMysterious: 0
+        LockedStackUntil: -1
+      - Cups:
+        - Color: 7
+          IsMysterious: 0
+        - Color: 1
+          IsMysterious: 0
+        - Color: 0
+          IsMysterious: 0
+        - Color: 6
+          IsMysterious: 0
+        - Color: 7
+          IsMysterious: 0
+        LockedStackUntil: -1
+      - Cups:
+        - Color: 0
+          IsMysterious: 0
+        - Color: 8
+          IsMysterious: 0
+        - Color: 2
+          IsMysterious: 0
+        - Color: 8
+          IsMysterious: 0
+        - Color: 3
+          IsMysterious: 0
+        - Color: 5
+          IsMysterious: 0
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+    - CupStacks:
+      - Cups:
+        - Color: 8
+          IsMysterious: 0
+        - Color: 7
+          IsMysterious: 0
+        - Color: 5
+          IsMysterious: 0
+        - Color: 8
+          IsMysterious: 0
+        - Color: 2
+          IsMysterious: 0
+        - Color: 5
+          IsMysterious: 0
+        - Color: 4
+          IsMysterious: 0
+        - Color: 7
+          IsMysterious: 0
+        LockedStackUntil: -1
+      - Cups:
+        - Color: 8
+          IsMysterious: 0
+        - Color: 7
+          IsMysterious: 0
+        - Color: 5
+          IsMysterious: 0
+        - Color: 8
+          IsMysterious: 0
+        - Color: 2
+          IsMysterious: 0
+        - Color: 5
+          IsMysterious: 0
+        - Color: 4
+          IsMysterious: 0
+        - Color: 7
+          IsMysterious: 0
+        LockedStackUntil: -1
+      - Cups:
+        - Color: 8
+          IsMysterious: 0
+        - Color: 0
+          IsMysterious: 0
+        - Color: 3
+          IsMysterious: 0
+        - Color: 4
+          IsMysterious: 0
+        - Color: 8
+          IsMysterious: 0
+        - Color: 0
+          IsMysterious: 0
+        LockedStackUntil: -1
+      - Cups:
+        - Color: 8
+          IsMysterious: 0
+        - Color: 0
+          IsMysterious: 0
+        - Color: 3
+          IsMysterious: 0
+        - Color: 4
+          IsMysterious: 0
+        - Color: 8
+          IsMysterious: 0
+        - Color: 0
           IsMysterious: 0
         LockedStackUntil: -1
       - Cups:
@@ -217,93 +382,6 @@ MonoBehaviour:
         - Color: 6
           IsMysterious: 0
         LockedStackUntil: -1
-      - Cups:
-        - Color: 7
-          IsMysterious: 0
-        - Color: 1
-          IsMysterious: 0
-        - Color: 0
-          IsMysterious: 0
-        - Color: 6
-          IsMysterious: 0
-        LockedStackUntil: -1
-      - Cups:
-        - Color: 0
-          IsMysterious: 0
-        - Color: 8
-          IsMysterious: 0
-        - Color: 2
-          IsMysterious: 0
-        LockedStackUntil: -1
-      - Cups: []
-        LockedStackUntil: -1
-      - Cups: []
-        LockedStackUntil: -1
-      - Cups: []
-        LockedStackUntil: -1
-    - CupStacks:
-      - Cups:
-        - Color: 8
-          IsMysterious: 0
-        - Color: 7
-          IsMysterious: 0
-        - Color: 5
-          IsMysterious: 0
-        - Color: 8
-          IsMysterious: 0
-        - Color: 2
-          IsMysterious: 0
-        - Color: 5
-          IsMysterious: 0
-        LockedStackUntil: -1
-      - Cups:
-        - Color: 8
-          IsMysterious: 0
-        - Color: 7
-          IsMysterious: 0
-        - Color: 5
-          IsMysterious: 0
-        - Color: 8
-          IsMysterious: 0
-        - Color: 2
-          IsMysterious: 0
-        - Color: 5
-          IsMysterious: 0
-        LockedStackUntil: -1
-      - Cups:
-        - Color: 8
-          IsMysterious: 0
-        - Color: 0
-          IsMysterious: 0
-        - Color: 3
-          IsMysterious: 0
-        - Color: 4
-          IsMysterious: 0
-        - Color: 8
-          IsMysterious: 0
-        LockedStackUntil: -1
-      - Cups:
-        - Color: 8
-          IsMysterious: 0
-        - Color: 0
-          IsMysterious: 0
-        - Color: 3
-          IsMysterious: 0
-        - Color: 4
-          IsMysterious: 0
-        - Color: 8
-          IsMysterious: 0
-        LockedStackUntil: -1
-      - Cups:
-        - Color: 7
-          IsMysterious: 0
-        - Color: 1
-          IsMysterious: 0
-        - Color: 0
-          IsMysterious: 0
-        - Color: 6
-          IsMysterious: 0
-        LockedStackUntil: -1
       - Cups: []
         LockedStackUntil: -1
       - Cups: []
@@ -328,6 +406,10 @@ MonoBehaviour:
           IsMysterious: 0
         - Color: 5
           IsMysterious: 0
+        - Color: 4
+          IsMysterious: 0
+        - Color: 7
+          IsMysterious: 0
         LockedStackUntil: -1
       - Cups:
         - Color: 8
@@ -342,6 +424,10 @@ MonoBehaviour:
           IsMysterious: 0
         - Color: 5
           IsMysterious: 0
+        - Color: 4
+          IsMysterious: 0
+        - Color: 7
+          IsMysterious: 0
         LockedStackUntil: -1
       - Cups:
         - Color: 8
@@ -353,6 +439,8 @@ MonoBehaviour:
         - Color: 4
           IsMysterious: 0
         - Color: 8
+          IsMysterious: 0
+        - Color: 0
           IsMysterious: 0
         LockedStackUntil: -1
       - Cups: []
@@ -382,6 +470,10 @@ MonoBehaviour:
         - Color: 2
           IsMysterious: 0
         - Color: 5
+          IsMysterious: 0
+        - Color: 4
+          IsMysterious: 0
+        - Color: 7
           IsMysterious: 0
         LockedStackUntil: -1
       - Cups: []
