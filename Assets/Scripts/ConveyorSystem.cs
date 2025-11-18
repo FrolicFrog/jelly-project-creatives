@@ -10,6 +10,6 @@ public class ConveyorSystem : MonoBehaviour
     public MeshRenderer BeltMeshRenderer => transform.parent.GetComponent<MeshRenderer>();
     public MeshRenderer BeltWallMeshRenderer => transform.parent.parent.GetComponent<MeshRenderer>();
 
-    [Range(1, 50)]
+    [Range(1, 100)]
     public int MaximumCupsAllowed = 35;
 }

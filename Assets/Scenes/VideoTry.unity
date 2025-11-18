@@ -7616,7 +7616,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2dc7b851cd6bcb84abe3631adc7744f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaximumCupsAllowed: 50
+  MaximumCupsAllowed: 100
 --- !u!1 &91294146
 GameObject:
   m_ObjectHideFlags: 0
@@ -29913,7 +29913,7 @@ Camera:
   far clip plane: 2000
   field of view: 60
   orthographic: 1
-  orthographic size: 53
+  orthographic size: 60.2
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -36279,8 +36279,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 395425847}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.13597417, y: -0.0022503547, z: 0.0005122557, w: -0.9907097}
-  m_LocalPosition: {x: 2.9, y: -25.8, z: -34}
+  m_LocalRotation: {x: -0.31399125, y: -0.0021950086, z: 0.0009028624, w: -0.94942296}
+  m_LocalPosition: {x: 3.3, y: -5.8, z: -34}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -68432,7 +68432,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &532201178
 Transform:
   m_ObjectHideFlags: 0
@@ -108269,7 +108269,7 @@ MonoBehaviour:
   YPosOffset: -9.5
   PreviewCupsDelayOffset: 0.31
   TestMode: 1
-  TestLevelLoad: 79
+  TestLevelLoad: 75
 --- !u!1 &873039075
 GameObject:
   m_ObjectHideFlags: 0
@@ -111664,7 +111664,7 @@ Camera:
   far clip plane: 500
   field of view: 60
   orthographic: 1
-  orthographic size: 53
+  orthographic size: 60.2
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -128575,7 +128575,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2dc7b851cd6bcb84abe3631adc7744f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  MaximumCupsAllowed: 50
+  MaximumCupsAllowed: 100
 --- !u!1 &1129470532
 GameObject:
   m_ObjectHideFlags: 0
@@ -170075,7 +170075,7 @@ Transform:
   m_GameObject: {fileID: 1604366333}
   serializedVersion: 2
   m_LocalRotation: {x: 0.5, y: 0.5, z: 0.5, w: -0.5}
-  m_LocalPosition: {x: -1.64, y: -2.49, z: 23.48}
+  m_LocalPosition: {x: -1.64, y: -2.49, z: 17.2}
   m_LocalScale: {x: 44.099995, y: 44.099995, z: 44.099987}
   m_ConstrainProportionsScale: 1
   m_Children:
@@ -199047,10 +199047,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c3b06229bac8814439757401578ac9eb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DelayInReadyForCollection: 10
+  DelayInReadyForCollection: 1
   YTargetOffset: 4.5
   CompensationSpeedMultiplier: 1.2
-  CupSpeed: 1850
+  CupSpeed: 1500
   CupStacksList: []
   JumpCurve:
     serializedVersion: 2
@@ -199095,7 +199095,7 @@ MonoBehaviour:
   MinDistanceBtwCups: 0.5
   ConveyerAnimateScaleDownMultiplier: 0.5
   ConveyerAnimateScaleUpMultiplier: 2
-  TimeToGetConveyer: 0.6
+  TimeToGetConveyer: 1
   ConveyerScaleAnimationDuration: 0.2
   ConveyerScaleNormalDuration: 0.1
   RotationAnimDuration: 0.25
