@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: 100
   m_EditorClassIdentifier: 
   CameraConfig:
-    Position: {x: 2.9, y: -25.8, z: -34}
-    Rotation: {x: 15.630004, y: 0.25699845, z: 359.976}
-    OrthographicSize: 53
+    Position: {x: 1.55, y: -17.23, z: -34}
+    Rotation: {x: 37.2, y: 0.25699845, z: 359.976}
+    OrthographicSize: 52
   CupArrangement:
     Width: 3
     Height: 3
@@ -72,5 +72,5 @@ MonoBehaviour:
     Position: {x: -1.4399999, y: 123.58}
     TraysToSpawn:
     - Type: 0
-      Material: 12
+      Material: 0
       IsMysterious: 0
