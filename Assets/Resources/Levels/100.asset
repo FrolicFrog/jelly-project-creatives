@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: 100
   m_EditorClassIdentifier: 
   CameraConfig:
-    Position: {x: 1.55, y: -17.23, z: -34}
+    Position: {x: 1.55, y: -11.51, z: -34}
     Rotation: {x: 37.2, y: 0.25699845, z: 359.976}
     OrthographicSize: 52
   CupArrangement:
