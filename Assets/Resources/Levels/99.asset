@@ -1,0 +1,514 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e14e6f22f761284cb43034e190fb4ab, type: 3}
+  m_Name: 99
+  m_EditorClassIdentifier: 
+  CameraConfig:
+    Position: {x: 2.8, y: -60.5, z: 0}
+    Rotation: {x: 28.21, y: 0, z: 0}
+    OrthographicSize: 53.62
+  CupArrangement:
+    Width: 11
+    Height: 8
+    Grid:
+    - CupStacks:
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+    - CupStacks:
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+    - CupStacks:
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+    - CupStacks:
+      - Cups:
+        - Color: 3
+          IsMysterious: 0
+        - Color: 7
+          IsMysterious: 0
+        - Color: 5
+          IsMysterious: 0
+        - Color: 6
+          IsMysterious: 0
+        - Color: 4
+          IsMysterious: 0
+        LockedStackUntil: -1
+      - Cups:
+        - Color: 3
+          IsMysterious: 0
+        - Color: 7
+          IsMysterious: 0
+        - Color: 5
+          IsMysterious: 0
+        - Color: 6
+          IsMysterious: 0
+        - Color: 4
+          IsMysterious: 0
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+    - CupStacks:
+      - Cups:
+        - Color: 0
+          IsMysterious: 0
+        - Color: 8
+          IsMysterious: 0
+        - Color: 2
+          IsMysterious: 0
+        - Color: 3
+          IsMysterious: 0
+        - Color: 5
+          IsMysterious: 0
+        LockedStackUntil: -1
+      - Cups:
+        - Color: 0
+          IsMysterious: 0
+        - Color: 8
+          IsMysterious: 0
+        - Color: 2
+          IsMysterious: 0
+        - Color: 3
+          IsMysterious: 0
+        - Color: 5
+          IsMysterious: 0
+        LockedStackUntil: -1
+      - Cups:
+        - Color: 3
+          IsMysterious: 0
+        - Color: 7
+          IsMysterious: 0
+        - Color: 5
+          IsMysterious: 0
+        - Color: 6
+          IsMysterious: 0
+        - Color: 4
+          IsMysterious: 0
+        LockedStackUntil: -1
+      - Cups:
+        - Color: 3
+          IsMysterious: 0
+        - Color: 7
+          IsMysterious: 0
+        - Color: 4
+          IsMysterious: 0
+        - Color: 6
+          IsMysterious: 0
+        - Color: 4
+          IsMysterious: 0
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+    - CupStacks:
+      - Cups:
+        - Color: 7
+          IsMysterious: 0
+        - Color: 1
+          IsMysterious: 0
+        - Color: 0
+          IsMysterious: 0
+        - Color: 6
+          IsMysterious: 0
+        LockedStackUntil: -1
+      - Cups:
+        - Color: 7
+          IsMysterious: 0
+        - Color: 1
+          IsMysterious: 0
+        - Color: 0
+          IsMysterious: 0
+        - Color: 6
+          IsMysterious: 0
+        - Color: 7
+          IsMysterious: 0
+        LockedStackUntil: -1
+      - Cups:
+        - Color: 0
+          IsMysterious: 0
+        - Color: 8
+          IsMysterious: 0
+        - Color: 2
+          IsMysterious: 0
+        - Color: 8
+          IsMysterious: 0
+        - Color: 3
+          IsMysterious: 0
+        - Color: 5
+          IsMysterious: 0
+        LockedStackUntil: -1
+      - Cups:
+        - Color: 0
+          IsMysterious: 0
+        - Color: 8
+          IsMysterious: 0
+        - Color: 2
+          IsMysterious: 0
+        - Color: 8
+          IsMysterious: 0
+        - Color: 3
+          IsMysterious: 0
+        - Color: 5
+          IsMysterious: 0
+        LockedStackUntil: -1
+      - Cups:
+        - Color: 3
+          IsMysterious: 0
+        - Color: 7
+          IsMysterious: 0
+        - Color: 4
+          IsMysterious: 0
+        - Color: 6
+          IsMysterious: 0
+        - Color: 4
+          IsMysterious: 0
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+    - CupStacks:
+      - Cups:
+        - Color: 8
+          IsMysterious: 0
+        - Color: 0
+          IsMysterious: 0
+        - Color: 3
+          IsMysterious: 0
+        - Color: 4
+          IsMysterious: 0
+        - Color: 8
+          IsMysterious: 0
+        - Color: 0
+          IsMysterious: 0
+        LockedStackUntil: -1
+      - Cups:
+        - Color: 8
+          IsMysterious: 0
+        - Color: 0
+          IsMysterious: 0
+        - Color: 3
+          IsMysterious: 0
+        - Color: 4
+          IsMysterious: 0
+        - Color: 8
+          IsMysterious: 0
+        - Color: 0
+          IsMysterious: 0
+        LockedStackUntil: -1
+      - Cups:
+        - Color: 7
+          IsMysterious: 0
+        - Color: 1
+          IsMysterious: 0
+        - Color: 0
+          IsMysterious: 0
+        - Color: 6
+          IsMysterious: 0
+        - Color: 7
+          IsMysterious: 0
+        LockedStackUntil: -1
+      - Cups:
+        - Color: 7
+          IsMysterious: 0
+        - Color: 1
+          IsMysterious: 0
+        - Color: 0
+          IsMysterious: 0
+        - Color: 6
+          IsMysterious: 0
+        - Color: 7
+          IsMysterious: 0
+        LockedStackUntil: -1
+      - Cups:
+        - Color: 0
+          IsMysterious: 0
+        - Color: 8
+          IsMysterious: 0
+        - Color: 2
+          IsMysterious: 0
+        - Color: 8
+          IsMysterious: 0
+        - Color: 3
+          IsMysterious: 0
+        - Color: 5
+          IsMysterious: 0
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+    - CupStacks:
+      - Cups:
+        - Color: 8
+          IsMysterious: 0
+        - Color: 7
+          IsMysterious: 0
+        - Color: 5
+          IsMysterious: 0
+        - Color: 8
+          IsMysterious: 0
+        - Color: 2
+          IsMysterious: 0
+        - Color: 5
+          IsMysterious: 0
+        - Color: 4
+          IsMysterious: 0
+        - Color: 7
+          IsMysterious: 0
+        LockedStackUntil: -1
+      - Cups:
+        - Color: 8
+          IsMysterious: 0
+        - Color: 7
+          IsMysterious: 0
+        - Color: 5
+          IsMysterious: 0
+        - Color: 8
+          IsMysterious: 0
+        - Color: 2
+          IsMysterious: 0
+        - Color: 5
+          IsMysterious: 0
+        - Color: 4
+          IsMysterious: 0
+        - Color: 7
+          IsMysterious: 0
+        LockedStackUntil: -1
+      - Cups:
+        - Color: 8
+          IsMysterious: 0
+        - Color: 0
+          IsMysterious: 0
+        - Color: 3
+          IsMysterious: 0
+        - Color: 4
+          IsMysterious: 0
+        - Color: 8
+          IsMysterious: 0
+        - Color: 0
+          IsMysterious: 0
+        LockedStackUntil: -1
+      - Cups:
+        - Color: 8
+          IsMysterious: 0
+        - Color: 0
+          IsMysterious: 0
+        - Color: 3
+          IsMysterious: 0
+        - Color: 4
+          IsMysterious: 0
+        - Color: 8
+          IsMysterious: 0
+        - Color: 0
+          IsMysterious: 0
+        LockedStackUntil: -1
+      - Cups:
+        - Color: 7
+          IsMysterious: 0
+        - Color: 1
+          IsMysterious: 0
+        - Color: 0
+          IsMysterious: 0
+        - Color: 6
+          IsMysterious: 0
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+    - CupStacks:
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups:
+        - Color: 8
+          IsMysterious: 0
+        - Color: 7
+          IsMysterious: 0
+        - Color: 5
+          IsMysterious: 0
+        - Color: 8
+          IsMysterious: 0
+        - Color: 2
+          IsMysterious: 0
+        - Color: 5
+          IsMysterious: 0
+        - Color: 4
+          IsMysterious: 0
+        - Color: 7
+          IsMysterious: 0
+        LockedStackUntil: -1
+      - Cups:
+        - Color: 8
+          IsMysterious: 0
+        - Color: 7
+          IsMysterious: 0
+        - Color: 5
+          IsMysterious: 0
+        - Color: 8
+          IsMysterious: 0
+        - Color: 2
+          IsMysterious: 0
+        - Color: 5
+          IsMysterious: 0
+        - Color: 4
+          IsMysterious: 0
+        - Color: 7
+          IsMysterious: 0
+        LockedStackUntil: -1
+      - Cups:
+        - Color: 8
+          IsMysterious: 0
+        - Color: 0
+          IsMysterious: 0
+        - Color: 3
+          IsMysterious: 0
+        - Color: 4
+          IsMysterious: 0
+        - Color: 8
+          IsMysterious: 0
+        - Color: 0
+          IsMysterious: 0
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+    - CupStacks:
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups:
+        - Color: 8
+          IsMysterious: 0
+        - Color: 7
+          IsMysterious: 0
+        - Color: 5
+          IsMysterious: 0
+        - Color: 8
+          IsMysterious: 0
+        - Color: 2
+          IsMysterious: 0
+        - Color: 5
+          IsMysterious: 0
+        - Color: 4
+          IsMysterious: 0
+        - Color: 7
+          IsMysterious: 0
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+    - CupStacks:
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+      - Cups: []
+        LockedStackUntil: -1
+  Theme: 3
+  BeltIndex: 15
+  LayoutIndex: 0
+  TutorialMessage: 
+  IsHardLevel: 0
+  TrayDispensers:
+  - Orientation: 3
+    Active: 1
+    Position: {x: 2.7, y: 100.7}
+    TraysToSpawn:
+    - Type: 4
+      Material: 0
+      IsMysterious: 0
