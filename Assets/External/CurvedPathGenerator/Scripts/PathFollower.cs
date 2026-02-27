@@ -71,10 +71,9 @@ namespace CurvedPathGenerator
 
             Vector3 offset = nextPath - target.transform.position;
             offset.Normalize();
+
             Quaternion q = Quaternion.LookRotation(offset);
             targetRigidbody.rotation = Quaternion.Slerp(targetRigidbody.rotation, q, TurningSpeed * Time.deltaTime);
-
-            offset.Normalize();
             targetRigidbody.velocity = Speed * Time.deltaTime * offset;
 
             float Distance = Vector3.Distance(nextPath, target.transform.position);
