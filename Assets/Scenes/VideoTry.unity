@@ -30199,7 +30199,7 @@ Camera:
   far clip plane: 2000
   field of view: 60
   orthographic: 1
-  orthographic size: 53.62
+  orthographic size: 48.1
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -36574,7 +36574,7 @@ Transform:
   m_GameObject: {fileID: 395425847}
   serializedVersion: 2
   m_LocalRotation: {x: 0.24369964, y: 0, z: 0, w: 0.9698508}
-  m_LocalPosition: {x: 2.8, y: -60.5, z: 0}
+  m_LocalPosition: {x: -0.4, y: -55.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -110197,7 +110197,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   CupParent: {fileID: 704122297}
   Table: {fileID: 1214567339}
-  Offset: {x: 0, y: 0, z: -17}
+  Offset: {x: 0, y: 0, z: -20}
   YPosOffset: -9.5
   PreviewCupsDelayOffset: 0.31
   TestMode: 1
@@ -113683,7 +113683,7 @@ Camera:
   far clip plane: 500
   field of view: 60
   orthographic: 1
-  orthographic size: 53.62
+  orthographic size: 48.1
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -158408,7 +158408,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -157.41968}
+  m_AnchoredPosition: {x: 0, y: -157.41974}
   m_SizeDelta: {x: 0, y: -314.84}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1418843011
